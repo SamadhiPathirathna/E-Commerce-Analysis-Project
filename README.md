@@ -102,7 +102,7 @@ PostgreSQL (via Django setup)
 
 BA_Ecommerce_Project/
 
-│
+
 ├── Python/        # Analysis & modeling
 
 ├── PowerBI/       # Dashboard files
