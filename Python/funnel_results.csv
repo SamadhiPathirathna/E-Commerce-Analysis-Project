@@ -1,0 +1,6 @@
+stage,order_count,drop_off,conv_from_prev,conv_from_top
+1. Order Placed,99441,0,100.0,100.0
+2. Order Approved,99281,160,99.8,99.8
+3. Order Shipped,97585,1696,98.3,98.1
+4. Order Delivered,96478,1107,98.9,97.0
+5. Order Reviewed,98673,-2195,102.3,99.2
