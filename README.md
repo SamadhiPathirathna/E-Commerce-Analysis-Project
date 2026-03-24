@@ -1,4 +1,5 @@
 📊 E-Commerce Revenue & Customer Analytics Case Study
+
 🚀 Executive Summary
 
 This project analyzes an e-commerce dataset to identify revenue leakage, customer value segments, and growth opportunities.
@@ -38,21 +39,27 @@ Monthly revenue trends
 Category-level performance
 Order behavior patterns
 
-📊 Key Insights 
+📊 Key Insights
+
 💰 Revenue Concentration
 Top customer segments generate the majority of revenue
 Long tail of low-value customers contributes minimally
+
 ⚠️ Funnel Leakage
 Significant drop-offs occur in early purchase stages
 Indicates friction in decision-making or checkout process
+
 📉 Weak Retention
 Sharp decline in repeat purchases after first transaction
 Suggests lack of post-purchase engagement strategy
+
 🛍️ Product-Level Patterns
 Certain categories consistently drive repeat purchases
 Others contribute only to one-time sales
 
-💡 Business Recommendations 
+
+💡 Business Recommendations
+
 1. Target High-Value Customers
 Loyalty programs
 Personalized offers
