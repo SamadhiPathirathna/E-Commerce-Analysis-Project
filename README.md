@@ -99,12 +99,18 @@ Excel
 PostgreSQL (via Django setup)
 
 📂 Project Structure
+
 BA_Ecommerce_Project/
+
 │
 ├── Python/        # Analysis & modeling
+
 ├── PowerBI/       # Dashboard files
+
 ├── Excel/         # Data prep
+
 ├── Raw_Data/      # Source dataset
+
 
 ▶️ How to Reproduce
 Open:
