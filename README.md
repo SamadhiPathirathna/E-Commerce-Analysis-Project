@@ -9,12 +9,10 @@
 [![Excel](https://img.shields.io/badge/Excel-Advanced-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](.)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](.)
 [![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](.)
-[![draw.io](https://img.shields.io/badge/draw.io-BPMN%20%7C%20UML-FF6633?style=for-the-badge)](.)
-[![Word](https://img.shields.io/badge/Word-FRS%20%7C%20UAT-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)](.)
 
 <br/>
 
-> **Analysed 110,817 real e-commerce orders to identify process inefficiencies, segment customers, and deliver a formally documented system enhancement proposal — covering the complete BA toolkit from raw data to signed UAT test cases.**
+> **Analysed 110,817 real e-commerce orders to identify process inefficiencies, segment customers, and deliver a formally documented system enhancement.**
 
 <br/>
 
@@ -34,7 +32,6 @@
 - [Phase 2 — Excel](#-phase-2--excel-analysis)
 - [Phase 3 — Python](#-phase-3--python-analysis)
 - [Phase 4 — Power BI](#-phase-4--power-bi-dashboard)
-- [Phase 5 — BA Documents](#-phase-5--ba-documents)
 - [Key Findings](#-key-findings)
 - [Skills Demonstrated](#-skills-demonstrated)
 - [How to Run](#-how-to-run)
@@ -44,7 +41,7 @@
 
 ## 🎯 Project Overview
 
-This is a complete, end-to-end **Business Analyst portfolio project** built on the **Olist Brazilian E-Commerce dataset** — 110,817 real orders from Brazil's largest marketplace, framed in a **Sri Lankan retail context** relevant to companies like Daraz, Keells, Cargills, PAYable, and Sysco.
+This is a complete, end-to-end **Analyst portfolio project** built on the **Olist Brazilian E-Commerce dataset** — 110,817 real orders from Brazil's largest marketplace, framed in a **Sri Lankan retail context**.
 
 Every deliverable mirrors what a BA produces on a real job:
 
@@ -52,11 +49,10 @@ Every deliverable mirrors what a BA produces on a real job:
 ✅ ETL Pipeline & Data Cleaning        ✅ RFM Customer Segmentation
 ✅ Star Schema Data Model               ✅ Cohort Retention Analysis
 ✅ Interactive Excel Dashboard          ✅ Order Funnel Analysis
-✅ 4-Page Power BI Dashboard            ✅ BPMN AS-IS / TO-BE Diagrams
-✅ Functional Requirements Spec (FRS)  ✅ UAT Test Cases with Sign-Off Sheet
-✅ Use Case Diagram                     ✅ Advanced Excel (XLOOKUP, VBA, Arrays)
+✅ 4-Page Power BI Dashboard            
+✅ Functional Requirements Spec (FRS)
+✅ Advanced Excel (XLOOKUP, VBA, Arrays)
 ```
-
 ---
 
 ## 🔍 Business Problem
@@ -91,15 +87,6 @@ BA_Ecommerce_Project/
 │
 ├── 📁 04_PowerBI/
 │   └── BA_Ecommerce_Dashboard.pbix        ← 4-page interactive Power BI dashboard
-│
-├── 📁 05_BA_Documents/
-│   ├── FRS_OrderManagement.docx           ← Functional Requirements Spec (10 FRs, 7 NFRs)
-│   └── UAT_TestCases_OrderManagement.docx ← 8 UAT test cases + formal sign-off sheet
-│
-├── 📁 06_Diagrams/
-│   ├── BPMN_ASIS_Order_Management.drawio  ← Current process with annotated pain points
-│   ├── BPMN_TOBE_Order_Management.drawio  ← Proposed enhanced automated process
-│   └── UseCase_OrderManagement.drawio     ← 21 use cases, 5 actors, include/extend relations
 │
 └── README.md
 ```
@@ -229,10 +216,7 @@ On Time Rate =
 
 ## 📋 Phase 5 — BA Documents
 
-### BPMN Process Maps (draw.io)
-
-**AS-IS** — 4 swim lanes with 5 data-evidenced pain point annotations.
-**TO-BE** — Same structure with proposed automated enhancements (teal):
+### BPMN Process
 
 ```
 ✅ FR-001 · Auto confirmation SMS + email within 5 minutes
@@ -333,20 +317,6 @@ On Time Rate =
 
 </details>
 
-<details>
-<summary><b>📋 Business Analysis</b></summary>
-<br/>
-
-- AS-IS / TO-BE BPMN process mapping with data-evidenced pain point annotations
-- Use Case diagram with include/extend notation
-- Functional requirements with MoSCoW prioritisation and acceptance criteria
-- 7 non-functional requirements categories
-- Scope definition with explicit exclusions
-- UAT test cases with formal sign-off sheet
-- Stakeholder register and assumption/dependency analysis
-
-</details>
-
 ---
 
 ## 🚀 How to Run
@@ -379,11 +349,6 @@ Open 02_Excel/BA_Project_Main.xlsm → Enable Content → Dashboard sheet → Re
 ### 4 — Power BI Dashboard
 ```
 Open 04_PowerBI/BA_Ecommerce_Dashboard.pbix → Refresh → navigate 4 pages
-```
-
-### 5 — Diagrams
-```
-app.diagrams.net → File → Open from Device → select .drawio file from 06_Diagrams/
 ```
 
 ---
